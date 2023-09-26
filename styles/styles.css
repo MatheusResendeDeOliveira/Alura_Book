@@ -1,0 +1,31 @@
+@import url("reset.css");
+@import url("header.css");
+@import url("banner.css");
+@import url("carrossel.css");
+@import url("topicos.css");
+@import url("contato.css");
+@import url("rodape.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,700&family=Poppins:wght@300;400;700&display=swap');
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --cor-do-cabecalho: #FFFFFF;
+    --cor-destaque: #EB9B00;
+    --cor-titulos: #002F52;
+    --cor-fonte-padrao: #FFFFFF;
+    --cor-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
+    --fonte-secundaria: "Josefin Sans";
+    --cor--preto: #000000;
+    --cor--padrao--titulo--rodape: #858585;
+    --cor--padrao-rodape: #474646;
+    --cinza--claro: #858585;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 1em;
+    font-weight: 400;
+}
